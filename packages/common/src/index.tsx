@@ -17,13 +17,6 @@ import {
   Text,
   View
 } from "react-native";
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions
-} from "react-native/Libraries/NewAppScreen";
 
 export const App = () => {
   return (
@@ -34,8 +27,6 @@ export const App = () => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}
         >
-          <Header />
-
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
@@ -44,25 +35,6 @@ export const App = () => {
                 this screen and then come back to see your edits.
               </Text>
             </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
           </View>
         </ScrollView>
       </SafeAreaView>
@@ -72,14 +44,14 @@ export const App = () => {
 
 const styles = StyleSheet.create({
   scrollView: {
-    backgroundColor: Colors.lighter
+    backgroundColor: "#eee"
   },
   engine: {
     position: "absolute",
     right: 0
   },
   body: {
-    backgroundColor: Colors.white
+    backgroundColor: "#fff"
   },
   sectionContainer: {
     marginTop: 32,
@@ -88,19 +60,19 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: "600",
-    color: Colors.black
+    color: "rgb(0,0,0)"
   },
   sectionDescription: {
     marginTop: 8,
     fontSize: 18,
     fontWeight: "400",
-    color: Colors.dark
+    color: "black"
   },
   highlight: {
     fontWeight: "700"
   },
   footer: {
-    color: Colors.dark,
+    color: "black",
     fontSize: 12,
     fontWeight: "600",
     padding: 4,
