@@ -1,11 +1,9 @@
 import React from "react";
-import logo from "./logo.svg";
-import { View, Text } from "react-native";
-// import "./App.css";
+import { Text, View } from "react-native";
 
 function App() {
   return (
-    <View style={{ backgroundColor: "black", height: 200 }}>
+    <View style={{ backgroundColor: "#eee", height: 200 }}>
       <Text>SOme text </Text>
     </View>
   );
