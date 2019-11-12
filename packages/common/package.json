@@ -1,0 +1,17 @@
+{
+  "name": "@wow/common",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "16.8.2",
+    "react-native": "0.60.5"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.60.22",
+    "typescript": "^3.7.2"
+  }
+}
